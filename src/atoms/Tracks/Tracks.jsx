@@ -6,7 +6,7 @@ const Tracks = ({ tracks, text }) => (
   <>
     <Message text={text} />
     <div className="root">
-      <Grid>
+      <Grid container spacing={3} justify="center">
         {tracks.map((track) => {
           const {
             commontrack_id,
