@@ -15,9 +15,9 @@ const SongsContextProvider = ({ children }) => {
     getTopTracks()
   }, [])
 
-
   // paso °3: Generar la lógica para la página de Songs
   const getTopTracks = () => {
+    console.log('getTopTracks se está ejecutando');
     fetch(chartTracksGet())
       .then((res) => res.json())
       .then((data) => {

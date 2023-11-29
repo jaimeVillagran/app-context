@@ -11,7 +11,7 @@ const Songs = () => {
     <>
       <SearchTracks validateQTrack={validateQTrack} />
       {doneFetch ? (
-        tracks.length ? (
+        tracks && tracks.length ? (
           <Tracks text={text} tracks={tracks} />
         ) : (
           <Message text={text} />

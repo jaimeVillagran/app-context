@@ -1,7 +1,3 @@
-import React from 'react'
-
-const Message = () => {
-  return <div>Hello am Message!</div>
-}
+const Message = ({ text }) => <h2 className="message">{text}</h2>
 
 export default Message
