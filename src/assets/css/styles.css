@@ -1,5 +1,15 @@
 html {
-    overflow-x: hidden;
+	overflow-x: hidden;
+}
+
+.light {
+	background-color: #fff;
+	color: #000;
+}
+
+.dark {
+	background-color: #363537;
+	color: #fff;
 }
 
 body {
@@ -30,10 +40,11 @@ a {
 }
 
 .root {
-    margin: 3vw;
+	margin: 3vw;
 }
 
-.message, .defaultPaper {
+.message,
+.defaultPaper {
 	text-align: center;
 	color: rgba(0, 0, 0, 0.54) !important;
 }
@@ -54,13 +65,16 @@ a {
 	font-size: 25px;
 }
 
-.buttonPrimary, .progressBar {
+.buttonPrimary,
+.progressBar {
 	display: flex;
-  	justify-content: center;
+	justify-content: center;
 	align-items: center;
 }
 
-.buttonPrimary, .message, .progressBar {
+.buttonPrimary,
+.message,
+.progressBar {
 	margin: 10px;
 }
 
